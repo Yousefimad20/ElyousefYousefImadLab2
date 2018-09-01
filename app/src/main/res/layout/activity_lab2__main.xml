@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lab2_Main">
+
+    <TextView
+        android:id="@+id/linearLayout"
+        android:layout_width="409dp"
+        android:layout_height="40dp"
+        android:background="@android:color/holo_blue_light"
+        android:backgroundTint="Blue"
+        android:text="Linear Layout"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="252dp"
+        android:layout_weight="0"
+        android:background="@drawable/ic_launcher_foreground"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:lineSpacingExtra="18sp"
+        android:text="Title"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:text="Location:" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:text="Distance From UST:" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Next" />
+
+    <LinearLayout
+        android:layout_width="138dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"></LinearLayout>
+
+</LinearLayout>
